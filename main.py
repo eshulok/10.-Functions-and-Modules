@@ -71,3 +71,7 @@ print("Enter a color")
 color = sys.stdin.readline()
 
 draw_colored_ngon(num_sides, color)
+
+print("What is your name?")
+name = sys.stdin.readline()
+print("Hello %s. Would you like to play a game?" %name)
