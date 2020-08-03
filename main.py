@@ -75,3 +75,7 @@ draw_colored_ngon(num_sides, color)
 print("What is your name?")
 name = sys.stdin.readline()
 print("Hello %s. Would you like to play a game?" %name)
+
+#Use the input function instead of the sys module to do the same thing
+name = input("What is your name?")
+print("Hello %s. Would you like to play a game?" %name)
